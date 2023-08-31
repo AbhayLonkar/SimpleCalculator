@@ -1,0 +1,34 @@
+@media only screen and (min-width: 200px) and (max-width: 567px){
+    .xstext{
+        font-size: 7vh;
+    }
+
+    .xscalBoundry{
+        /* height: 65vw;
+        width: 55vw; */
+        height: 90vw;
+        width: 73vw;
+    }
+
+    .xsKeypad{       
+        /* grid-template-columns: repeat(4,13.5vw);
+        grid-template-rows: repeat(6,7.55vw); */
+        grid-template-columns: repeat(4,17.69vw);
+        grid-template-rows: repeat(6,10.59vw);
+    }
+
+    .xsNum{
+        /* font-size: 4vw; */
+        font-size: 6vw;
+    }
+
+    .xsEquals{
+        /* font-size: 4vw; */
+        font-size: 6vw;
+    }
+
+    .xsDisplayNum{
+        /* font-size: 8vw; */
+        font-size: 11vw;
+    }
+}

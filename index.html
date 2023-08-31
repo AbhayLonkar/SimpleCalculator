@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Simple calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="Container">
+        <div class="col-md-6 col-sm-6 col-xs-12 textual">
+            <span class="text xstext">A simple calculator using HTML,CSS and JAVASCRIPT</span>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12 main">
+            <div class="calBoundry xscalBoundry">
+                <div class="display">
+                    <span class="displayNum xsDisplayNum">0</span>
+                </div>
+                <div class="keypad xsKeypad">
+                    <div class="num xsNum operator" onclick="cube()">x <sup>3</sup> </div>
+                    <div class="num xsNum operator" onclick="reset()">CE</div>
+                    <div class="num xsNum operator" onclick="reset()">C</div>
+                    <div class="num xsNum operator" onclick="remove()"><i class="fa-solid fa-delete-left"></i></div>
+                    <div class="num xsNum operator" onclick="divideByOne()">1/x</div>
+                    <div class="num xsNum operator" onclick="square()">x<sup>2</sup></div>
+                    <div class="num xsNum operator" onclick="sqrt()">sqrt(x)</div>
+                    <div class="num xsNum operator" onclick="operationBinary(this)">/</div>
+                    <div class="num xsNum" onclick="addNum(this)">7</div>
+                    <div class="num xsNum" onclick="addNum(this)">8</div>
+                    <div class="num xsNum" onclick="addNum(this)">9</div>
+                    <div class="num xsNum operator" onclick="operationBinary(this)">*</div>
+                    <div class="num xsNum" onclick="addNum(this)">4</div>
+                    <div class="num xsNum" onclick="addNum(this)">5</div>
+                    <div class="num xsNum" onclick="addNum(this)">6</div>
+                    <div class="num xsNum operator" onclick="operationBinary(this)">-</div>
+                    <div class="num xsNum" onclick="addNum(this)">1</div>
+                    <div class="num xsNum" onclick="addNum(this)">2</div>
+                    <div class="num xsNum" onclick="addNum(this)">3</div>
+                    <div class="num xsNum operator" onclick="operationBinary(this)">+</div>
+                    <div class="num xsNum" onclick="absolute()">+/-</div>
+                    <div class="num xsNum" onclick="addNum(this)">0</div>
+                    <div class="num xsNum" onclick="addNum(this)">.</div>
+                    <div class="equals xsEquals" onclick="cal()">=</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</html>
